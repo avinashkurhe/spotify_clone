@@ -1,0 +1,136 @@
+*{  
+      font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: weight;
+      font-style: normal;
+    }
+
+    
+.main{
+    background-color: black;
+}
+    
+
+.stickynav{
+    background-color: #2e2e2e;
+    color: white;
+    display: flex;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    border-radius: 1rem;
+    justify-content: space-between;
+    margin-bottom: 0.5rem ;
+    padding: 0.5rem;
+}
+.stickynav img{
+    width: 2rem;
+    height: 2rem;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+@media(max-width:600px){
+.search{
+visibility: hidden;
+}
+}
+.mbody{
+    display: flex;
+    background-color: black;
+}
+.mainbody{
+    display: flex;
+    background-color: black;
+}
+
+.sidebar{
+    height: 100vh;
+    width: 25%;
+    background-color:#1e1e1e;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    overflow: hidden;
+    position: fixed;
+    border-radius: 1rem;
+}
+.link{
+    display: flex;
+    flex-wrap: wrap;
+    font-weight: lighter;
+    font-size: small;
+    
+}
+.link a{
+    text-decoration: none;
+    color: white;
+    margin-left: 1rem;
+    margin: 0.5rem;
+}
+.allcard{
+    border-radius: 1rem;
+    background-color: black;
+
+}
+.cardscontainer1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #1e1e1e;
+    width: 75%;
+    overflow: auto;
+    float: right;
+    padding: 1rem;
+    margin-left: 26%;
+    border-radius: 1rem;
+
+}
+
+.card-body{
+    background-color: black;
+    
+}
+.tital{
+    color: white;
+    display:block;
+}
+.card-text{
+    color: white;
+}
+.sidebar img{
+    width: 1rem;
+    height: 1rem;
+    padding-right: 0.5rem;
+
+
+}
+.sidetop{
+    display: flex;
+    margin-left: 1rem;
+    padding: rem;
+    align-items: center;
+    justify-content: space-between;
+}
+.sidetop h3{
+    font-size: medium;
+    opacity: 0.75;
+}
+.sidetop svg{
+    opacity: 1;
+    font-size: medium;
+    color: white;
+
+
+}
+.card{
+    background-color:#3e3e3e;
+    align-items: center;
+    
+  
+}
+.card:hover{
+    border: none;
+}
+
